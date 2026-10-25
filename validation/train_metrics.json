@@ -1,0 +1,64 @@
+{
+  "totals": {
+    "accepted": 630,
+    "bad": 5,
+    "good": 625,
+    "field_error_documents": 5,
+    "invalid_accepted": 0,
+    "documents": 3000,
+    "valid_ground_truth": 2910,
+    "acceptance_rate": 0.21
+  },
+  "by_source": {
+    "all": {
+      "documents": 3000,
+      "accepted": 630,
+      "bad": 5,
+      "good": 625
+    }
+  },
+  "field_errors": {
+    "First_name_ru": 3,
+    "Birth_place_ru": 1,
+    "Last_name_ru": 1
+  },
+  "rejection_reasons": {},
+  "accepted_corrections": {},
+  "bad_documents": [
+    {
+      "doc_id": "tr_01506",
+      "wrong_fields": [
+        "First_name_ru"
+      ],
+      "invalid": false
+    },
+    {
+      "doc_id": "tr_01665",
+      "wrong_fields": [
+        "Birth_place_ru"
+      ],
+      "invalid": false
+    },
+    {
+      "doc_id": "tr_01765",
+      "wrong_fields": [
+        "First_name_ru"
+      ],
+      "invalid": false
+    },
+    {
+      "doc_id": "tr_02287",
+      "wrong_fields": [
+        "Last_name_ru"
+      ],
+      "invalid": false
+    },
+    {
+      "doc_id": "tr_02818",
+      "wrong_fields": [
+        "First_name_ru"
+      ],
+      "invalid": false
+    }
+  ]
+}

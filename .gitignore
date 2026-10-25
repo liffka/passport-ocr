@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+tmp/
+experiments/
+data/*.jsonl
+validation/**/labels.jsonl
+validation/**/answers.jsonl
+validation/test_audit.jsonl
+validation/development/grid.json
+train_answers.jsonl

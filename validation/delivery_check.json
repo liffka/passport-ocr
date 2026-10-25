@@ -1,0 +1,12 @@
+{
+  "documents": 2000,
+  "decisions": {
+    "reject": 1483,
+    "accept": 517
+  },
+  "answers_sha256": "fa2a2d919128c9fb57e4fb27d79dc856e27bb78aa4b153b5b04a885a226b2a55",
+  "stdlib_only": true,
+  "training_files_absent": true,
+  "network_connect_blocked": true,
+  "output_reproduced_exactly": true
+}

@@ -1,0 +1,40 @@
+{
+  "test_documents": 2000,
+  "test_accepted": 517,
+  "test_rejected": 1483,
+  "expected_errors": 6.160853710853711,
+  "rounded_error_forecast": 6,
+  "probability_zero_errors": 0.014259722533711869,
+  "model_based_95_percent_predictive_interval": [
+    0,
+    13
+  ],
+  "by_source": {
+    "mobile": {
+      "test_accepted": 164,
+      "cv_accepted": 188,
+      "cv_errors": 1,
+      "smoothed_error_rate": 0.007936507936507936,
+      "expected_test_errors": 1.3015873015873014
+    },
+    "mobile_v2": {
+      "test_accepted": 207,
+      "cv_accepted": 149,
+      "cv_errors": 2,
+      "smoothed_error_rate": 0.016666666666666666,
+      "expected_test_errors": 3.4499999999999997
+    },
+    "web": {
+      "test_accepted": 146,
+      "cv_accepted": 258,
+      "cv_errors": 2,
+      "smoothed_error_rate": 0.009652509652509652,
+      "expected_test_errors": 1.4092664092664093
+    }
+  },
+  "cv_file": "validation\\cv_final\\grouped_cv\\repeat-0\\metrics.json",
+  "primary_repeat": 0,
+  "repeats_pooled_as_independent": false,
+  "method": "Source-level Beta-binomial predictions with Jeffreys Beta(1/2,1/2) priors from predeclared primary repeat 0 of outer CV for the deployed grouped CV procedure. Accepted passport groups are counted once per source; repeated predictions are not pooled.",
+  "limitations": "Rules were revised after the initial holdout. Cross-validation is post-development; the interval is conditional on exchangeability, source stability, independence and the chosen prior. It is not a validated confidence guarantee. No test labels exist locally."
+}

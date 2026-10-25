@@ -1,0 +1,18 @@
+{
+  "birth_min": 0.95,
+  "birth_min_v2": 0.998,
+  "issuer_min": 0.95,
+  "issuer_min_v2": 1.0,
+  "name_mrz_min": 0.995,
+  "name_mrz_min_v2": 0.999,
+  "name_visual_min": 0.98,
+  "numeric_mrz_min": 0.9,
+  "repair_mrz_min": 0.995,
+  "issuer_max_edits": 2,
+  "issuer_margin": 2,
+  "name_mrz_min_web": 0.995,
+  "name_mrz_min_mobile": 0.994,
+  "name_mrz_min_mobile_v2": 0.999,
+  "require_known_first_name": false,
+  "allow_repairs": true
+}

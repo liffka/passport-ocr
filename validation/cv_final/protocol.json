@@ -1,0 +1,36 @@
+{
+  "folds": 5,
+  "repeats": 3,
+  "seed": 20261025,
+  "mode": "grouped_cv",
+  "policy": {
+    "birth_min": 0.95,
+    "birth_min_v2": 0.998,
+    "issuer_min": 0.95,
+    "issuer_min_v2": 1.0,
+    "name_mrz_min": 0.995,
+    "name_mrz_min_v2": 0.999,
+    "name_visual_min": 0.98,
+    "numeric_mrz_min": 0.9,
+    "repair_mrz_min": 0.995,
+    "issuer_max_edits": 2,
+    "issuer_margin": 2,
+    "name_mrz_min_web": 0.995,
+    "name_mrz_min_mobile": 0.994,
+    "name_mrz_min_mobile_v2": 0.999,
+    "require_known_first_name": false,
+    "allow_repairs": true
+  },
+  "sha256": {
+    "postprocess.py": "0c1036eabb5a479a2eec89da5c79df77a99f574c64f90ec20e4c9244e2a2d0e8",
+    "fit_model.py": "22fe9827f36cf2eba1436ec21a02c2e1b33aba0122292599a109f0add3b71bee",
+    "cv_tools.py": "219175605099346b573689f5946ecc84b9aba441d104584f647eeada8d9cfa47",
+    "run_cv.py": "0a9ac86e1429d8dbf08581c8a9c86a2354d3d8e88e40875c882292bb2e0697ca",
+    "validate.py": "445fe44901cda60c695261fa052fbc8173eca9a6f35acc92c5b9f17b86c40974",
+    "policy.json": "cd9c4b6cc46165bae95945796ad6137f763b475a1b6e411e56086a9e36b6d82d",
+    "reference/subdivisions.csv": "fa7999fab074d824ab89d26cef2ff4576f3cdf1b527eb38df3bc96322709eec4",
+    "data/train_predictions.jsonl": "7c23de7e8be44a762aef387e57232dde701d12eddad54d4f252c844d848caaa3",
+    "data/train_labels.jsonl": "7e58735b5a3a100af624ce004ad1ea2576e730fabd0e85c78d0dcd7d481be907"
+  },
+  "limitations": "Vocabularies exclude outer validation records. Thresholds are fixed. Rules were developed using these data, so this is not a blind audit. Repeated predictions are not independent observations."
+}
